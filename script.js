@@ -8,5 +8,5 @@
         document.getElementById('message').innerHTML = (`<textarea>${randInt(100000)}</textarea>`);
     }
 
-    document.getElementById('aBtn').addEventListener('click', randomNumberFill(), false);
+    document.getElementById('aBtn').addEventListener('click', randomNumberFill);
 })();
