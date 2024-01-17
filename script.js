@@ -1,6 +1,6 @@
 (function(){
     const randInt = (max) => {
-        let x = ((Math.floor(Math.random() * max))+1); // returns random int between 1 and 100
+        let x = ((Math.floor(Math.random() * max))+1); // returns random int between 1 and max
         return x;
     }
 
@@ -9,4 +9,4 @@
     }
 
     document.getElementById('aBtn').addEventListener('click', randomNumberFill(), false);
-})()
+})();
